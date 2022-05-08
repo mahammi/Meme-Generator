@@ -63,11 +63,11 @@ export default function Meme() {
                     className="form--button"
                     onClick={getMemeImage}
                 >
-                    Get a new meme image 🖼
+                    Get a new meme image🖼️
                 </button>
             </div>
             <div className="meme">
-                <img src={meme.randomImage} className="meme--image" />
+                <img src={meme.randomImage} className="meme--image" alt="meme image"/>
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
